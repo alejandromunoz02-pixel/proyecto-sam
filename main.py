@@ -1,3 +1,17 @@
+#!/usr/bin/env python3
+# version=1.0
+## INSTRUCTIONS
+## main.py
+## description: script to analyze SAM alignment files
+## extracts MAPQ values and calculates the proportion
+## of reads uniquely mapped to the genome (MAPQ=60)
+## usage: uv run python main.py <path_to_SAM_file>
+## input: one argument - path to a SAM file
+## output: formatted table with total reads, MAPQ=60 reads
+## and percentage
+## author: alejandromunoz02-pixel
+## date: 2026-03-31
+
 import sys
 from rich.console import Console
 from rich.table import Table
