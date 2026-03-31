@@ -1,10 +1,3 @@
-
-
-
-
-
-
-
 #!/usr/bin/env nextflow
 // version=1.0
 // INSTRUCTIONS
